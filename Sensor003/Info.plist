@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Team MDS Ask Bluetooth 1</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Team MDS Ask 1</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -54,6 +58,16 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Team MDS Ask 2</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Team MDS Ask 3</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>processing</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

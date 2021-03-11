@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA372ABE25EF1CC900F9E032 /* Aranet4Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA372ABD25EF1CC900F9E032 /* Aranet4Manager.swift */; };
 		AAB5A84525EEFBEB0042A2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A84425EEFBEB0042A2E2 /* AppDelegate.swift */; };
 		AAB5A84725EEFBEB0042A2E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A84625EEFBEB0042A2E2 /* SceneDelegate.swift */; };
 		AAB5A84925EEFBEB0042A2E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A84825EEFBEB0042A2E2 /* ViewController.swift */; };
 		AAB5A84C25EEFBEB0042A2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB5A84A25EEFBEB0042A2E2 /* Main.storyboard */; };
 		AAB5A84E25EEFBEC0042A2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB5A84D25EEFBEC0042A2E2 /* Assets.xcassets */; };
 		AAB5A85125EEFBEC0042A2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB5A84F25EEFBEC0042A2E2 /* LaunchScreen.storyboard */; };
+		AAB5A85A25EEFC0F0042A2E2 /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A85925EEFC0F0042A2E2 /* GoogleSheetsIntegration.swift */; };
+		AAB5A85D25EEFC5D0042A2E2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5A85C25EEFC5D0042A2E2 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA372ABD25EF1CC900F9E032 /* Aranet4Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranet4Manager.swift; sourceTree = "<group>"; };
 		AAB5A84125EEFBEB0042A2E2 /* Sensor003.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensor003.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB5A84425EEFBEB0042A2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB5A84625EEFBEB0042A2E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		AAB5A84D25EEFBEC0042A2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB5A85025EEFBEC0042A2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAB5A85225EEFBEC0042A2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB5A85925EEFC0F0042A2E2 /* GoogleSheetsIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsIntegration.swift; sourceTree = "<group>"; };
+		AAB5A85C25EEFC5D0042A2E2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				AAB5A84425EEFBEB0042A2E2 /* AppDelegate.swift */,
+				AAB5A85C25EEFC5D0042A2E2 /* LocationManager.swift */,
+				AAB5A85925EEFC0F0042A2E2 /* GoogleSheetsIntegration.swift */,
 				AAB5A84625EEFBEB0042A2E2 /* SceneDelegate.swift */,
+				AA372ABD25EF1CC900F9E032 /* Aranet4Manager.swift */,
 				AAB5A84825EEFBEB0042A2E2 /* ViewController.swift */,
 				AAB5A84A25EEFBEB0042A2E2 /* Main.storyboard */,
 				AAB5A84D25EEFBEC0042A2E2 /* Assets.xcassets */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB5A84925EEFBEB0042A2E2 /* ViewController.swift in Sources */,
+				AAB5A85A25EEFC0F0042A2E2 /* GoogleSheetsIntegration.swift in Sources */,
+				AAB5A85D25EEFC5D0042A2E2 /* LocationManager.swift in Sources */,
+				AA372ABE25EF1CC900F9E032 /* Aranet4Manager.swift in Sources */,
 				AAB5A84525EEFBEB0042A2E2 /* AppDelegate.swift in Sources */,
 				AAB5A84725EEFBEB0042A2E2 /* SceneDelegate.swift in Sources */,
 			);
